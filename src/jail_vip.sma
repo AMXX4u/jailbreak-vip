@@ -281,6 +281,8 @@ _register_cvars()
 
 	bind_pcvar_num(create_cvar("vip_model_enable", "1",
 		.description = "Czy modele broni maja byc wlaczone? 1 - tak, 0 - nie"), vip_cvars[VIP_MODEL_ENABLE]);
+
+	create_cvar("amxx4u_pl", VERSION, FCVAR_SERVER);
 }
 
 _register_event()
